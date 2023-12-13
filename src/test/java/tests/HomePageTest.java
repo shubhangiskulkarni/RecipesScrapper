@@ -32,7 +32,7 @@ public class HomePageTest extends TestBase {
         String HomePageTitle = driver.getTitle();
 
         LoggerLoad.info("Title of the home page is: " + HomePageTitle);
-        Assert.assertEquals(HomePageTitle, "NumpyNinja");
+        Assert.assertEquals(HomePageTitle, "Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes");
 
     }
 

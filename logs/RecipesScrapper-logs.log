@@ -6,3 +6,11 @@
 [INFO ] 2023-12-13 13:39:23.575 [main] LoggerLoad - The url is: https://www.tarladalal.com/
 [INFO ] 2023-12-13 13:42:43.953 [main] LoggerLoad - Inside init
 [INFO ] 2023-12-13 13:42:43.956 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-13 13:55:44.273 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-13 13:55:44.275 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-13 13:55:49.527 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-13 13:55:49.538 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-13 13:57:23.761 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-13 13:57:23.764 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-13 13:57:28.751 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-13 13:57:28.759 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
