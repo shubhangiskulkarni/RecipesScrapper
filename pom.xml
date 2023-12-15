@@ -23,6 +23,14 @@
             <artifactId>selenium-java</artifactId>
             <version>4.16.1</version>
         </dependency>
+        
+        <!-- https://mvnrepository.com/artifact/commons-collections/commons-collections -->
+<dependency>
+    <groupId>commons-collections</groupId>
+    <artifactId>commons-collections</artifactId>
+    <version>3.2.2</version>
+</dependency>
+
 
 
         <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
@@ -63,6 +71,12 @@
             <artifactId>poi</artifactId>
             <version>5.2.5</version>
         </dependency>
+        
+        <dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>5.2.4</version>
+</dependency>
 
 
     </dependencies>

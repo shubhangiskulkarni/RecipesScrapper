@@ -80,5 +80,9 @@ public class TestBase {
         return driver.getCurrentUrl();
 
     }
+    
+    public static WebDriver getDriver() {
+		return driver;
+	}
 
 }
