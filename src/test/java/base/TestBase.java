@@ -1,12 +1,12 @@
 package base;
 
-import utils.LoggerLoad;
-import utils.TestUtil;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.safari.SafariDriver;
+import utils.LoggerLoad;
+import utils.TestUtil;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -25,6 +25,7 @@ public class TestBase {
 
         try {
 
+            // reading property file...
             InputStream stream = TestBase.class.getClassLoader().getResourceAsStream("config.properties");
             prop.load(stream);
 
@@ -36,6 +37,7 @@ public class TestBase {
 
     }
 
+    // WebDriver initialization...
     @SuppressWarnings("deprecation")
     public static void initialization() {
 
@@ -61,6 +63,7 @@ public class TestBase {
 
         }
 
+        //setting driver properties...
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
         driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
@@ -69,6 +72,7 @@ public class TestBase {
 
     }
 
+    //few reusable methods...
     public String getTitleOfCurrentPage() {
 
         return driver.getTitle();
@@ -80,5 +84,6 @@ public class TestBase {
         return driver.getCurrentUrl();
 
     }
+
 
 }

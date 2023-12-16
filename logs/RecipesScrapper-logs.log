@@ -14,3 +14,363 @@
 [INFO ] 2023-12-13 13:57:23.764 [main] LoggerLoad - The url is: https://www.tarladalal.com/
 [INFO ] 2023-12-13 13:57:28.751 [main] LoggerLoad - Executing test to validate Home Page title...
 [INFO ] 2023-12-13 13:57:28.759 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-14 20:17:10.953 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-14 20:17:10.956 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-14 20:17:28.125 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-14 20:17:38.796 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-14 21:33:31.585 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-14 21:33:31.588 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-14 21:33:57.811 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-14 21:34:14.288 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-14 21:37:33.308 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-14 21:37:33.312 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-14 21:38:30.739 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-14 21:38:30.750 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-14 21:40:44.136 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-14 21:40:44.140 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-14 21:41:21.939 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-14 21:41:21.964 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-14 21:42:17.906 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-14 21:42:17.909 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-14 21:42:53.672 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-14 21:42:53.688 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-14 21:45:40.289 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-14 21:45:40.292 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-14 21:46:17.935 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-14 21:46:17.951 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-14 21:47:02.423 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-14 21:47:02.427 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-14 21:47:25.629 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-14 21:47:37.473 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-14 21:48:11.843 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-14 21:48:11.847 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-14 21:48:52.275 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-14 21:48:52.285 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-14 21:50:05.598 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-14 21:50:05.603 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-14 21:50:46.066 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-14 21:50:46.082 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-14 21:51:11.141 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-14 21:51:11.144 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-14 21:51:37.984 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-14 21:51:38.001 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-14 21:53:49.475 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-14 21:53:49.478 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-14 21:54:36.342 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-14 21:54:36.358 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-14 21:57:10.694 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-14 21:57:10.697 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-14 21:58:01.739 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-14 21:58:01.756 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-14 23:34:39.695 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-14 23:34:39.698 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-14 23:35:27.716 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-14 23:35:27.731 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-14 23:52:30.018 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-14 23:52:30.022 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-14 23:53:27.830 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-14 23:53:27.852 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-14 23:54:20.841 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-14 23:54:20.844 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-14 23:55:23.666 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-14 23:55:23.682 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-14 23:56:05.215 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-14 23:56:05.218 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-14 23:57:00.694 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-14 23:57:00.708 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-14 23:57:30.548 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-14 23:57:30.551 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-14 23:58:24.406 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-14 23:58:24.423 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-14 23:59:55.546 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-14 23:59:55.550 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-15 00:00:45.847 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 00:00:45.864 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-15 00:01:45.650 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 00:01:45.653 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-15 00:02:25.719 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 00:02:25.735 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-15 00:06:03.763 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 00:06:03.767 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-15 00:06:53.096 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 00:06:53.124 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-15 06:45:03.235 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 06:45:03.239 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-15 06:45:53.371 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 06:45:53.386 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-15 06:47:31.301 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 06:47:31.304 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-15 06:48:10.050 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 06:48:10.065 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-15 06:50:20.987 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 06:50:20.990 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-15 06:50:46.311 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 06:50:46.327 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-15 08:00:22.310 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 08:00:22.312 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-15 08:01:02.730 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 08:01:02.746 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-15 08:04:15.319 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 08:04:15.319 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-15 08:05:19.479 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 08:05:19.494 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-15 08:10:17.446 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 08:10:17.450 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-15 08:10:51.443 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 08:10:51.455 [main] LoggerLoad - Title of the home page is: 502 Bad Gateway
+[INFO ] 2023-12-15 08:11:17.107 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 08:11:17.110 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-15 08:12:08.616 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 08:12:37.931 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-15 08:18:24.557 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 08:18:24.560 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-15 08:19:19.694 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 08:19:19.710 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-15 08:23:44.101 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 08:23:44.105 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-15 08:24:27.627 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 08:25:48.055 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-15 08:36:42.623 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 08:36:42.625 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-15 08:37:20.615 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 08:37:20.624 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-15 08:39:35.753 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 08:39:35.755 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-15 08:40:28.285 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 08:40:28.294 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-15 08:43:03.091 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 08:43:03.094 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-15 08:44:06.770 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 08:44:06.778 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-15 08:46:08.804 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 08:46:08.807 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-15 08:46:58.971 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 08:46:58.983 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-15 08:50:27.789 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 08:50:27.792 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-15 08:51:16.037 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 08:51:16.045 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-15 09:04:48.328 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 09:04:48.331 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-15 09:05:33.191 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 09:05:33.201 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-15 09:06:21.386 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 09:06:21.390 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-15 09:07:04.149 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 09:07:04.158 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-15 09:12:15.329 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 09:12:15.332 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-15 09:12:47.507 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 09:12:47.516 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-15 13:42:53.419 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 13:42:53.421 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 13:44:12.314 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 13:44:12.339 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-15 13:46:05.757 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 13:46:05.760 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 13:47:12.291 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 13:47:12.301 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-15 13:51:47.716 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 13:51:47.718 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 13:52:37.302 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 13:52:37.311 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-15 14:03:42.909 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 14:03:42.912 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 14:04:38.212 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 14:04:38.227 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-15 14:10:56.983 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 14:10:56.986 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 14:11:50.971 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 14:11:50.987 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-15 14:13:06.866 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 14:13:06.869 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 14:14:05.376 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 14:14:05.384 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-15 14:14:13.268 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 14:14:13.272 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 14:15:05.731 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 14:15:05.739 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-15 14:37:20.116 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 14:37:20.119 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 14:38:22.251 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 14:38:22.280 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-15 14:40:21.717 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 14:40:21.719 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 14:41:14.228 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 14:41:14.247 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-15 14:48:30.062 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 14:48:30.065 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 14:49:28.292 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 14:49:28.311 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-15 14:57:50.461 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 14:57:50.461 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 14:58:21.857 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 14:58:21.877 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-15 19:27:04.926 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 19:27:04.930 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 19:27:19.012 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 19:27:19.034 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-15 19:28:15.005 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 19:28:15.007 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-15 19:28:19.435 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 19:28:19.444 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-15 19:29:13.366 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 19:29:13.368 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-15 19:29:17.762 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 19:29:17.773 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-15 19:31:12.519 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 19:31:12.521 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-15 19:31:17.916 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 19:31:17.923 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-15 20:26:55.359 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 20:26:55.363 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-15 20:27:00.927 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 20:27:00.946 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-15 20:29:03.264 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 20:29:03.266 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-15 20:29:07.897 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 20:29:07.905 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-15 20:33:59.026 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 20:33:59.031 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-15 20:34:04.012 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 20:34:04.019 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-15 20:36:32.660 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 20:36:32.662 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-15 20:36:37.165 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 20:36:37.173 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-15 20:44:29.850 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 20:44:29.853 [main] LoggerLoad - The url is: https://www.tarladalal.com/
+[INFO ] 2023-12-15 20:44:34.434 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 20:44:34.441 [main] LoggerLoad - Title of the home page is: Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes
+[INFO ] 2023-12-15 20:45:44.709 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 20:45:44.712 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 20:46:00.423 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 20:46:00.424 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-15 20:46:30.842 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 20:46:30.844 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 20:46:43.873 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 20:46:43.884 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-15 20:47:29.115 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 20:47:29.118 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 20:47:42.092 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 20:47:42.103 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-15 20:48:33.945 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 20:48:33.948 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 20:48:48.039 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 20:48:48.052 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-15 20:50:01.911 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 20:50:01.913 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 20:50:15.968 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 20:50:15.987 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-15 21:06:46.798 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 21:06:46.801 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 21:07:02.542 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 21:07:02.563 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-15 21:49:55.755 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 21:49:55.758 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 21:50:14.123 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 21:50:14.149 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-15 21:57:33.163 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 21:57:33.165 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 21:57:48.402 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 21:57:48.425 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-15 22:06:48.006 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 22:06:48.008 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 22:07:00.294 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 22:07:00.320 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-15 22:09:59.968 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 22:09:59.970 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 22:10:12.680 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 22:10:12.705 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-15 22:11:07.338 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 22:11:07.341 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 22:11:20.331 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 22:11:20.353 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-15 22:12:47.925 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 22:12:47.927 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 22:13:00.341 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 22:13:00.348 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-15 22:17:55.404 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 22:17:55.407 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 22:18:08.652 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 22:18:08.672 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-15 22:22:04.569 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 22:22:04.571 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 22:22:18.086 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 22:22:18.104 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-15 22:30:26.726 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 22:30:26.729 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 22:30:41.728 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 22:30:41.744 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-15 22:33:57.777 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 22:33:57.780 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 22:34:10.486 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 22:34:10.505 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-15 22:35:36.485 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 22:35:36.487 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 22:35:52.804 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 22:35:52.826 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-15 22:42:31.084 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 22:42:31.087 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 22:42:42.354 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 22:42:42.364 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-15 22:45:26.310 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 22:45:26.313 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 22:45:39.370 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 22:45:39.378 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-15 22:46:17.816 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 22:46:17.818 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 22:46:31.129 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 22:46:31.161 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-15 22:49:42.506 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 22:49:42.508 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 22:49:55.353 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 22:49:55.379 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-15 22:51:42.044 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 22:51:42.048 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 22:51:56.472 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 22:51:56.493 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-15 22:53:52.507 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 22:53:52.509 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 22:54:15.526 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 22:54:15.545 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-15 22:56:54.640 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 22:56:54.643 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 22:57:11.580 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 22:57:11.603 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-15 23:20:37.155 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 23:20:37.158 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 23:20:50.220 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 23:20:50.243 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-15 23:23:36.928 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 23:23:36.930 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 23:23:49.909 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 23:23:49.927 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-15 23:30:27.723 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 23:30:27.726 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 23:30:43.909 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 23:30:43.930 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-15 23:40:53.461 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 23:40:53.464 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 23:41:04.735 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 23:41:04.765 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-15 23:46:16.687 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 23:46:16.689 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 23:46:32.811 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 23:46:32.833 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-15 23:47:46.788 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 23:47:46.791 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 23:48:01.545 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 23:48:01.565 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-15 23:56:55.496 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-15 23:56:55.498 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-15 23:57:18.558 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-15 23:57:18.584 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-16 00:27:23.670 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-16 00:27:23.673 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-16 00:27:41.776 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-16 00:27:41.799 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
+[INFO ] 2023-12-16 00:29:36.801 [main] LoggerLoad - Inside init
+[INFO ] 2023-12-16 00:29:36.803 [main] LoggerLoad - The url is: https://www.tarladalal.com/recipes-for-high-blood-pressure-644
+[INFO ] 2023-12-16 00:29:51.407 [main] LoggerLoad - Executing test to validate Home Page title...
+[INFO ] 2023-12-16 00:29:51.429 [main] LoggerLoad - Title of the home page is: High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium
