@@ -1,5 +1,8 @@
 package tests;
 
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeClass;
+import org.testng.AssertJUnit;
 import base.TestBase;
 import org.openqa.selenium.WebDriver;
 import utils.LoggerLoad;
@@ -32,7 +35,7 @@ public class HomePageTest extends TestBase {
         String HomePageTitle = driver.getTitle();
 
         LoggerLoad.info("Title of the home page is: " + HomePageTitle);
-        Assert.assertEquals(HomePageTitle, "Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes");
+        AssertJUnit.assertEquals(HomePageTitle, "Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes");
 
     }
 

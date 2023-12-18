@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites>
-    <testsuite name="Sample Test Suite 1" tests="3" failures="1" time="10.5">
-        <testcase name="Test Case 1" classname="SampleTestClass">
-            <failure message="Assertion failed">Test case 1 failed</failure>
-        </testcase>
-        <testcase name="Test Case 2" classname="SampleTestClass"/>
-        <testcase name="Test Case 3" classname="SampleTestClass"/>
-    </testsuite>
-    <testsuite name="Sample Test Suite 2" tests="2" failures="0" time="7.2">
-        <testcase name="Test Case 4" classname="SampleTestClass"/>
-        <testcase name="Test Case 5" classname="SampleTestClass"/>
-    </testsuite>
-</testsuites>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="tests.HomePageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
