@@ -6,7 +6,9 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import pages.HighBloodPressure;
+import utils.ExcelUtils;
 import utils.LoggerLoad;
+import utils.excelTemp;
 
 public class HighBloodPressureTest extends TestBase {
 
@@ -46,6 +48,20 @@ public class HighBloodPressureTest extends TestBase {
         highBloodPressure.setHighBloodPressure();
 
         highBloodPressure.scrapHBPRecipes();
+
+
+
+    }
+
+    @Test
+    public void excel() {
+
+        String[] data = {"Data1", "Data2", "Data3"};
+        //Create Excel file
+        ExcelUtils excelUtils = new ExcelUtils();
+//        excelUtils.createFile("HighBloodPressureRecipes", prop.getProperty("OutputLocation"));
+
+        excelUtils.WriteToExcelFile("HighBloodPressureRecipes", prop.getProperty("OutputLocation"), data, 1);
 
 
 

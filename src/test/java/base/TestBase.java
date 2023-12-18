@@ -46,7 +46,7 @@ public class TestBase {
 
         String browserName = prop.getProperty("browser");
 
-        // TODO REPLACE THIS WITH SWITCH STATEMENTS
+        // TODO REPLACE THIS WITH SWITCH STATEMENTS in case of multi browser testing
         if (browserName.equalsIgnoreCase("chrome")) {
 
             WebDriverManager.chromedriver().setup();

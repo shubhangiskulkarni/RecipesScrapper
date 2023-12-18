@@ -6,7 +6,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
+import utils.ExcelUtils;
+import utils.ExcelUtils.*;
 import java.util.List;
 
 public class HighBloodPressure extends TestBase {
@@ -42,10 +43,12 @@ public class HighBloodPressure extends TestBase {
     Actions actions = new Actions(driver);
 
 
+    // constructor
     public HighBloodPressure() {
         PageFactory.initElements(driver, this);
     }
 
+    //Method to enable the recipes menu
     public boolean mouseoverRecipes() throws InterruptedException {
 
 
@@ -78,9 +81,11 @@ public class HighBloodPressure extends TestBase {
 
     }
 
+
     public boolean isVisible() {
         return btnRecipe.isDisplayed();
     }
+
 
     public void setHighBloodPressure() throws InterruptedException {
 
@@ -165,31 +170,44 @@ public class HighBloodPressure extends TestBase {
 //
 //        }
 
+        //Create Excel file
+        ExcelUtils excelUtils = new ExcelUtils();
+        excelUtils.createFile("HighBloodPressureRecipes", prop.getProperty("OutputLocation"));
+
         for(int i = 1; i < HBPRecipesList1.size(); i++) {
+
+            String[] data = {"","","","","","","","","","",""};
 
             WebElement rep = HBPRecipesList1.get(i);
 
+
+            WebElement repId = driver.findElement(new By.ByXPath("//article[" + i + "]/div[2]/span[1]"));
+
+            // Get all child nodes of the span element
+            String spanText = repId.getAttribute("innerText");
+
+            // Split the text by the <br> tag and extract the part before it
+            String[] textParts = spanText.split("\\r?\\n");
+            String recipeNumber = textParts[0].replaceAll("[^0-9]", "");
+
+            System.out.println("recipeNumber: " + recipeNumber);
+
+            data[0] = recipeNumber;
+
             WebElement recipeLink = rep.findElement(By.xpath("//article[" + i + "]/div[3]/span[1]/a"));
+            data[1] = recipeLink.getText();
+
             recipeLink.click();
 
             //Extract data and write to Excel file
-//            Recipe ID
-//            Recipe Name
-//            Recipe Category(Breakfast/lunch/snack/dinner)
-//            Food Category(Veg/non-veg/vegan/Jain)
-//            Ingredients
-//            Preparation Time
-//            Cooking Time
-//            Preparation method
-//            Nutrient values
-//            Targetted morbid conditions (Diabeties/Hypertension/Hypothyroidism)
+//            Recipe ID, Recipe Name, Recipe Category(Breakfast/lunch/snack/dinner), Food Category(Veg/non-veg/vegan/Jain)
+//            Ingredients, Preparation Time, Cooking Time, Preparation method, Nutrient values, Targetted morbid conditions (Diabeties/Hypertension/Hypothyroidism)
 //            Recipe URL
 
+//            String[] data = {"Data1", "Data2", "Data3"};
+            excelUtils.WriteToExcelFile("HighBloodPressureRecipes", prop.getProperty("OutputLocation"), data, i);
 
-
-
-
-            System.out.println(driver.getTitle());
+            System.out.println(i + ": " + driver.getTitle());
 
             driver.navigate().back();
         }
@@ -204,6 +222,7 @@ public class HighBloodPressure extends TestBase {
 
 
     }
+
 
 
 }
