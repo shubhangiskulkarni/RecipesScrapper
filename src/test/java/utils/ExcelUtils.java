@@ -93,7 +93,12 @@ public class ExcelUtils extends TestBase {
 
             // If headers are found, proceed to write data
             if (headerRowIndex != -1) {
+
+                int lastRowNum = sheet.getLastRowNum();
+
                 Row dataRow = sheet.createRow(headerRowIndex + rowNumber); // Create a row for data
+
+                System.out.println("Writting to file: " + filePath + " Row num is " + rowNumber);
 
                 // Write data under specific columns based on header name
                 writeDataUnderHeaders(dataRow, headers, data); // Replace with your data
@@ -157,14 +162,14 @@ public class ExcelUtils extends TestBase {
                 if (cell.getCellType() == CellType.STRING) {
                     String cellValue = cell.getStringCellValue().trim();
                     if (header.equalsIgnoreCase(cellValue)) {
-                        System.out.println("Header '" + header + "' found at column index: " + cell.getColumnIndex());
+//                        System.out.println("Header '" + header + "' found at column index: " + cell.getColumnIndex());
                         return cell.getColumnIndex();
                     }
                 }
             }
         }
 
-        System.out.println("Header '" + header + "' not found in the specified sheet!");
+//        System.out.println("Header '" + header + "' not found in the specified sheet!");
         return -1;
     }
 

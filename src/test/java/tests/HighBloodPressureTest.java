@@ -36,12 +36,14 @@ public class HighBloodPressureTest extends TestBase {
     @Test(priority = 1)
     public void validateUserLandingHomePageTest() throws InterruptedException {
 
+        driver.get(prop.getProperty("HBP_url"));
         LoggerLoad.info("Executing test to validate Home Page title...");
         String HomePageTitle = driver.getTitle();
 
         LoggerLoad.info("Title of the home page is: " + HomePageTitle);
-//        Assert.assertEquals(HomePageTitle, "Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes");
         Assert.assertEquals(HomePageTitle, "High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium");
+
+        highBloodPressure.readExcel();
 
 
         Assert.assertTrue(highBloodPressure.mouseoverRecipes());
@@ -53,19 +55,7 @@ public class HighBloodPressureTest extends TestBase {
 
     }
 
-    @Test
-    public void excel() {
 
-        String[] data = {"Data1", "Data2", "Data3"};
-        //Create Excel file
-        ExcelUtils excelUtils = new ExcelUtils();
-//        excelUtils.createFile("HighBloodPressureRecipes", prop.getProperty("OutputLocation"));
-
-        excelUtils.WriteToExcelFile("HighBloodPressureRecipes", prop.getProperty("OutputLocation"), data, 1);
-
-
-
-    }
 
 
 }
