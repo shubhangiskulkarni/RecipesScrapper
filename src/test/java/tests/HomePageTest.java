@@ -1,15 +1,11 @@
 package tests;
 
-import base.TestBase;
-
 import java.io.IOException;
-import java.time.Duration;
 
-import org.openqa.selenium.By;
-import utils.LoggerLoad;
-import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+
+import base.TestBase;
 import pages.HomePage;
 import pages.HypothyroidismAddOnRec;
 import pages.HypothyroidismAfterElimnatngAllergies;
@@ -31,22 +27,9 @@ public class HomePageTest extends TestBase {
 		initialization();
 		homePage = new HomePage();
 	}
+	
 
-	@Test
-	public void validateUserLandingHomePageTest() {
-		LoggerLoad.info("Executing test to validate Home Page title...");
-		String HomePageTitle = driver.getTitle();
-
-		LoggerLoad.info("Title of the home page is: " + HomePageTitle);
-		Assert.assertEquals(HomePageTitle, "Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes");
-		driver.findElement(By.xpath("//div[text()='RECIPES']")).click();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-		driver.findElement(By.xpath("//td/a[@id='ctl00_cntleftpanel_ttlhealthtree_tvTtlHealtht46']")).click();
-
-	}
-
-	@Test
-
+	@Test(priority=1)
 	public void hypothyroidismAftrElimnatnRecipes() throws InterruptedException, IOException {
 		HypothyroidismRecAfterElimntn scrappingHypoThyroidRec = new HypothyroidismRecAfterElimntn(TestBase.getDriver());
 		scrappingHypoThyroidRec.readExcel();
@@ -54,7 +37,7 @@ public class HomePageTest extends TestBase {
 		scrappingHypoThyroidRec.gettingHypoThyroidRec();
 	}
 
-	@Test
+	@Test(priority=2)
 	public void hypothyroidAddOnRec() throws InterruptedException, IOException {
 		HypothyroidismAddOnRec scrappingHypoThyroidAddOnRec = new HypothyroidismAddOnRec(TestBase.getDriver());
 		scrappingHypoThyroidAddOnRec.readExcel();
@@ -62,7 +45,7 @@ public class HomePageTest extends TestBase {
 		scrappingHypoThyroidAddOnRec.gettingRecipes();
 	}
 
-	@Test
+	@Test(priority=3)
 	public void hypothyroidAftrElimnateAllrgies() throws InterruptedException, IOException {
 		HypothyroidismAfterElimnatngAllergies HypothyroidNoAllergis = new HypothyroidismAfterElimnatngAllergies(
 				TestBase.getDriver());
