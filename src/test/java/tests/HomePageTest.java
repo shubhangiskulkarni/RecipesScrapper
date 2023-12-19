@@ -2,6 +2,7 @@ package tests;
 
 import java.io.IOException;
 
+import org.testng.Assert;
 import org.testng.AssertJUnit;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -53,7 +54,7 @@ public class HomePageTest extends TestBase {
 		HypothyroidNoAllergis.gettingRecipes();
 	}
 
-	@Test
+	@Test(priority = 4)
 	public void diabeticRecipesTest() throws InterruptedException, IOException  {
 		DiabeticRecipes diabeticRepObj=new DiabeticRecipes(TestBase.getDriver());
 		diabeticRepObj.readExcel();
@@ -61,7 +62,7 @@ public class HomePageTest extends TestBase {
 		diabeticRepObj.getDiabeticRecipes();
 	}
 
-	@Test
+	@Test(priority = 5)
 	public void getDiabetesRecipesToAdd() throws InterruptedException, IOException  {
 		DiabetesRecipesToAdd diabeticRepToAddObj=new DiabetesRecipesToAdd(TestBase.getDriver());
 		diabeticRepToAddObj.readExcel();
@@ -69,7 +70,7 @@ public class HomePageTest extends TestBase {
 		diabeticRepToAddObj.getDiabeticRecipes();
 	}
 
-	@Test
+	@Test(priority = 6)
 	public void getDiabetesRecipesAfterAllergyCheck() throws InterruptedException, IOException  {
 		DiabetesAfterElimnatngAllergies diabeticRepAllergyChk=new DiabetesAfterElimnatngAllergies(TestBase.getDriver());
 		diabeticRepAllergyChk.readExcel();
@@ -77,17 +78,7 @@ public class HomePageTest extends TestBase {
 		diabeticRepAllergyChk.getDiabeticRecipes();
 	}
 
-	@Test(priority = 1)
-	public void validateUserLandingHomePageTest() {
-		LoggerLoad.info("Executing test to validate Home Page title...");
-		String HomePageTitle = driver.getTitle();
-
-		LoggerLoad.info("Title of the home page is: " + HomePageTitle);
-		AssertJUnit.assertEquals(HomePageTitle, "Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes");
-
-	}
-
-	@Test (priority = 2)
+	@Test (priority = 8)
 	public void PCOSAfterEliminationReceipes() throws InterruptedException, IOException {
 		PCOSRecAfterElimination pcosrecafterelimination = new PCOSRecAfterElimination(TestBase.getDriver());
 		pcosrecafterelimination.readExcel();
@@ -96,10 +87,7 @@ public class HomePageTest extends TestBase {
 
 	}
 
-
-
-
-	@Test (priority = 3)
+	@Test (priority = 9)
 	public void PCOSAllergyFiltered() throws InterruptedException, IOException {
 		PcosRecipesAfterEliminatngAllergies pcosrecipesafterelimonatingallergies = new PcosRecipesAfterEliminatngAllergies(TestBase.getDriver());
 
@@ -108,5 +96,25 @@ public class HomePageTest extends TestBase {
 		pcosrecipesafterelimonatingallergies.gettingRecipes();
 
 	}
+
+	@Test(priority = 10)
+	public void validateUserLandingHomePageTest() throws InterruptedException {
+
+		HighBloodPressure highBloodPressure = new HighBloodPressure();
+		driver.get(prop.getProperty("HBP_url"));
+		LoggerLoad.info("Executing test to validate Home Page title...");
+		String HomePageTitle = driver.getTitle();
+
+		LoggerLoad.info("Title of the home page is: " + HomePageTitle);
+		Assert.assertEquals(HomePageTitle, "High Blood Pressure Recipes, Low Salt Recipes, Veg Low Sodium");
+
+		highBloodPressure.readExcel();
+
+		Assert.assertTrue(highBloodPressure.mouseoverRecipes());
+		highBloodPressure.setHighBloodPressure();
+
+		highBloodPressure.scrapHBPRecipes();
+	}
+
 
 }

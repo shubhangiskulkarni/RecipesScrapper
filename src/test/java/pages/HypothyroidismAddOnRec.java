@@ -32,7 +32,7 @@ public class HypothyroidismAddOnRec {
 
 	public void readExcel() {
 		ExcelReaderCode reader = new ExcelReaderCode(
-				"C:\\Users\\renji\\eclipse-workspace\\Recipe_Scrapping\\src\\test\\resources\\hypothyroidismValidRecipe.xlsx");
+				"src/test/resources/Valid&InvalidFudItemsForHypothyroidism.xlsx");
 		for (int i = 3; i <= 36; i++) {
 			String elimntdItemsData = reader.getCellData("Diabetes-Hypothyroidism-Hyperte", 2, i);
 			hypothyroidism_EliminateItem.add(elimntdItemsData);
