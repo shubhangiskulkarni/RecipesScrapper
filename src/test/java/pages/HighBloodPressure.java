@@ -139,6 +139,10 @@ public class HighBloodPressure extends TestBase {
         int noOfPages = driver.findElements(By.xpath("//div[@id='pagination']//a")).size();
         //Create Excel file
         ExcelUtils excelUtils = new ExcelUtils();
+        excelUtils.createFile("Hypertension_Recipes", prop.getProperty("OutputLocation"));
+        excelUtils.createFile("Hypertension_Recipes_AddOn", prop.getProperty("OutputLocation"));
+        excelUtils.createFile("Hypertension_Recipes_Allergies", prop.getProperty("OutputLocation"));
+
 
 
         for(int currentPage = 1; currentPage <= noOfPages; currentPage++) {
@@ -278,13 +282,11 @@ public class HighBloodPressure extends TestBase {
                 if(isValidRecipe(Hypertension_EliminateItem, data[4])) {
 
                     //Recipes that do not contain eliminated ingredients
-                    excelUtils.createFile("Hypertension_Recipes", prop.getProperty("OutputLocation"));
                     excelUtils.WriteToExcelFile("Hypertension_Recipes", prop.getProperty("OutputLocation"), data, i);
 
                     if(addRecipe(Hypertension_AddOnItem, data[4])) {
 
                         //Recipes that do not contain eliminated ingredients but the "To-add" ingredients
-                        excelUtils.createFile("Hypertension_Recipes_AddOn", prop.getProperty("OutputLocation"));
                         excelUtils.WriteToExcelFile("Hypertension_Recipes_AddOn", prop.getProperty("OutputLocation"), data, i);
 
                     }
@@ -292,7 +294,6 @@ public class HighBloodPressure extends TestBase {
                     if (isAllergic(Hypertension_AllergiesItem, data[4])) {
 
                         //List of all the filtered recipes after applying allergy ingredients
-                        excelUtils.createFile("Hypertension_Recipes_Allergies", prop.getProperty("OutputLocation"));
                         excelUtils.WriteToExcelFile("Hypertension_Recipes_Allergies", prop.getProperty("OutputLocation"), data, i);
 
                     }

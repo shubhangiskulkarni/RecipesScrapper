@@ -6,9 +6,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import pages.HighBloodPressure;
-import utils.ExcelUtils;
 import utils.LoggerLoad;
-import utils.excelTemp;
 
 public class HighBloodPressureTest extends TestBase {
 
