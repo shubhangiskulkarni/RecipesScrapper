@@ -34,7 +34,7 @@ public class HypothyroidismRecAfterElimntn extends TestBase {
 
 	public void readExcel() {
 		ExcelReaderCode reader = new ExcelReaderCode(
-				"C:\\Users\\renji\\eclipse-workspace\\Recipe_Scrapping\\src\\test\\resources\\Valid&InvalidFudItemsForHypothyroidism.xlsx");
+				"src/test/resources/Valid&InvalidFudItemsForHypothyroidism.xlsx");
 
 		for (int i = 3; i <= 36; i++) {
 			String testData = reader.getCellData("Diabetes-Hypothyroidism-Hyperte", 3, i);

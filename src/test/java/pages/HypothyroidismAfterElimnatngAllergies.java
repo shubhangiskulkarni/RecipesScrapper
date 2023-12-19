@@ -33,7 +33,7 @@ public class HypothyroidismAfterElimnatngAllergies {
 
 	public void readExcel() {
 		ExcelReaderCode reader = new ExcelReaderCode(
-				"C:\\Users\\renji\\eclipse-workspace\\Hello-Selenium\\src\\test\\resources\\Valid&InvalidFudItemsForHypothyroidism.xlsx");
+				"src/test/resources/Valid&InvalidFudItemsForHypothyroidism.xlsx");
 		// Boolean sheetCheck = reader.isSheetExist("Diabetes-Hypothyroidism-Hyperte");
 		// System.out.println("The sheet existance status is : " + sheetCheck);
 
