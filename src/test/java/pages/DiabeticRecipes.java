@@ -24,6 +24,9 @@ public class DiabeticRecipes extends TestBase {
 
 	List<String> Diabetic_EliminateItem = new ArrayList<String>();
 	String ingre_List = "";
+	String food_Category;
+	String rec_Category;
+	String morbid_Condition;
 
 
 	public DiabeticRecipes(WebDriver driver) {
@@ -38,7 +41,7 @@ public class DiabeticRecipes extends TestBase {
 
 		for (int i = 3; i <= 38; i++) {
 			String testData = reader.getCellData("Diabetes-Hypothyroidism-Hyperte", 0, i);
-			Diabetic_EliminateItem.add(testData);
+			Diabetic_EliminateItem.add(testData.toLowerCase());
 			// System.out.println(testData);
 		}
 	}
@@ -56,13 +59,13 @@ public class DiabeticRecipes extends TestBase {
 		int noOfPages = driver.findElements(By.xpath("//div[@id='pagination']//a")).size();
 		List<List<String>> recipesdetailedList = new ArrayList<>();
 		List<String> headers = Arrays.asList("Recipe Name", "Recipe ID", "Nutrition Value", "Recipe Category",
-				"Food Category", "Ingredients", "Preparation Time", "Cooking Time", "Preparation Method", "URL");
+				"Food Category", "Ingredients", "Preparation Time", "Cooking Time", "Preparation Method","Targetted Morbid Condition", "URL");
 		recipesdetailedList.add(headers);
 
 		
 
 
-		for (int p = 1; p <= 2; p++) {
+		for (int p = 1; p <= 11; p++) {
 			String pageNo = Integer.toString(p);
 			WebElement pagination = driver.findElement(By.xpath("//div[@id='pagination']//a[" + pageNo + "]"));
 			JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -71,12 +74,11 @@ public class DiabeticRecipes extends TestBase {
 			System.out.println(rec_Size);
 
 			for (int i = 1; i <= rec_Size; i++) {
-				if (i == 13) {
-					continue;
-				}else if(i==29) {
+				if ((p==1 && i == 13)||(p==2&& i==4)||(p==3&&i==17)||(p==4&&i==24)||(p==5&&i==2)||(p==7&&i==2)||(p==7&&i==23)||(p==7&&i==22)||(p==7&&i==17||(p==10&&i==9)||
+						(p==9&&i==23)||(p==9&&i==24)||(p==10&&i==22)||(p==12&&i==6))) {
 					continue;
 				}
-					
+				System.out.println("i= "+i);	
 				List<String> recipesDiabetes = new ArrayList<>();
 				String indexNo = Integer.toString(i);
 				WebElement recipeName = driver.findElement(By.xpath("//article[" + indexNo + "]//div[3]//span[1]//a"));
@@ -93,19 +95,55 @@ public class DiabeticRecipes extends TestBase {
 				System.out.println(nut_Val);
 				recipesDiabetes.add(nut_Val);
 				js.executeScript("arguments[0].click();", recipeName);
-				Thread.sleep(3000);
-				WebElement recipeCategory = driver.findElement(By.xpath("//div[@id='recipe_tags']//a[2]//span[1]"));
-				String rec_Category = recipeCategory.getText();
+				Thread.sleep(2000);
+				//WebElement recipeCategory = driver.findElement(By.xpath("//div[@id='recipe_tags']//a[2]//span[1]"));
+				List<WebElement> recipeTag = driver.findElements(By.id("recipe_tags"));
+				for (WebElement recInfo : recipeTag) {
+					rec_Category = recInfo.getText().toLowerCase();
+					if (rec_Category.contains("breakfast")) {
+						rec_Category = "Breakfast";
+						break;
+					} else if (rec_Category.contains("dinner")) {
+						rec_Category = "Dinner";
+						break;
+					} else if (rec_Category.contains("snacks")) {
+						rec_Category = "Snacks";
+						break;
+					}
+					rec_Category = "Lunch";
+				}
 				System.out.println(rec_Category);
 				recipesDiabetes.add(rec_Category);
-				WebElement foodCategory = driver.findElement(By.xpath("//div[@id='recipe_tags']//a[1]//span[1]"));
-				String food_Category = foodCategory.getText();
+				
+				for (WebElement recInfo : recipeTag) {
+					food_Category = recInfo.getText().toLowerCase();
+					if ((food_Category.contains("veg")) && (!food_Category.contains("non veg"))) {
+						food_Category = "Vegetarian";
+						break;
+					} else if (food_Category.contains("non veg")) {
+						food_Category = "Non vegetarian";
+						break;
+					} else if (food_Category.contains("egg")) {
+						food_Category = "Eggitarian";
+						break;
+					} else if (food_Category.contains("jain")) {
+						food_Category = "Jain";
+						break;
+					}	
+					
+					food_Category = "Vegan";
+				}
+
 				System.out.println(food_Category);
 				recipesDiabetes.add(food_Category);
+//				WebElement foodCategory = driver.findElement(By.xpath("//div[@id='recipe_tags']//a[1]//span[1]"));
+//				String food_Category = foodCategory.getText();
+//				System.out.println(food_Category);
+//				recipesDiabetes.add(food_Category);
 				List<WebElement> ingredients = driver.findElements(By.xpath("//span[@itemprop='recipeIngredient']/a"));
 				ingre_List = "";
 				for (WebElement selectIngre : ingredients) {
-					ingre_List = ingre_List + "," + selectIngre.getText();
+					ingre_List = ingre_List + "," + (selectIngre.getText()).toLowerCase();
 				}
 				// System.out.println(ingre_List);
 				recipesDiabetes.add(ingre_List);
@@ -122,6 +160,24 @@ public class DiabeticRecipes extends TestBase {
 				String prep_Method = preparatnMethod.getText();
 				System.out.println(prep_Method);
 				recipesDiabetes.add(prep_Method);
+				for (WebElement recInfo : recipeTag) {
+					morbid_Condition = recInfo.getText().toLowerCase();
+					if (morbid_Condition.contains("hypothyroidism")) {
+						morbid_Condition = "Hypothyroidism";
+						break;
+					} else if (morbid_Condition.contains("pcos")) {
+						morbid_Condition = "PCOS";
+						break;
+					} else if (morbid_Condition.contains("hypertension")) {
+						morbid_Condition = "Hypertension";
+						break;
+					}
+					morbid_Condition = "Diabetes";
+				}
+
+				System.out.println(morbid_Condition);
+				recipesDiabetes.add(morbid_Condition);
+				
 				String URL = driver.getCurrentUrl();
 				System.out.println(URL);
 				recipesDiabetes.add(URL);
@@ -160,7 +216,7 @@ public class DiabeticRecipes extends TestBase {
 			ingr = ingr.trim();
 			if (ingr.length() > 0 && Diabetic_EliminateItem.contains(ingr)) {
 				System.out.println(ingr);
-				System.out.println("Invalid Item");
+				System.out.println("Eliminate_item found");
 				return false;
 			}
 		}

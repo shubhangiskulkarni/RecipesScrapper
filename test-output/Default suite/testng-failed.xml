@@ -5,8 +5,8 @@
     <classes>
       <class name="tests.HomePageTest">
         <methods>
+          <include name="getDiabetesRecipesAfterAllergyCheck"/>
           <include name="setup"/>
-          <include name="diabeticRecipesTest"/>
         </methods>
       </class> <!-- tests.HomePageTest -->
     </classes>

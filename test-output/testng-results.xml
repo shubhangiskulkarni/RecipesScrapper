@@ -2,19 +2,19 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-18T11:26:50 EST" name="Default suite" finished-at="2023-12-18T11:35:17 EST" duration-ms="507777">
+  <suite started-at="2023-12-19T12:52:50 EST" name="Default suite" finished-at="2023-12-19T13:02:19 EST" duration-ms="569222">
     <groups>
     </groups>
-    <test started-at="2023-12-18T11:26:50 EST" name="Default test" finished-at="2023-12-18T11:35:17 EST" duration-ms="507777">
+    <test started-at="2023-12-19T12:52:50 EST" name="Default test" finished-at="2023-12-19T13:02:19 EST" duration-ms="569222">
       <class name="tests.HomePageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.HomePageTest@6025e1b6]" started-at="2023-12-18T11:26:50 EST" name="setup" finished-at="2023-12-18T11:27:03 EST" duration-ms="13847" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.HomePageTest@22ff4249]" started-at="2023-12-19T12:52:50 EST" name="setup" finished-at="2023-12-19T12:53:12 EST" duration-ms="22239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="getDiabetesRecipesToAdd()[pri:0, instance:tests.HomePageTest@6025e1b6]" started-at="2023-12-18T11:27:03 EST" name="getDiabetesRecipesToAdd" finished-at="2023-12-18T11:35:17 EST" duration-ms="493873" status="PASS">
+        <test-method signature="getDiabetesRecipesAfterAllergyCheck()[pri:0, instance:tests.HomePageTest@22ff4249]" started-at="2023-12-19T12:53:12 EST" name="getDiabetesRecipesAfterAllergyCheck" finished-at="2023-12-19T13:02:19 EST" duration-ms="546942" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getDiabetesRecipesToAdd -->
+        </test-method> <!-- getDiabetesRecipesAfterAllergyCheck -->
       </class> <!-- tests.HomePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

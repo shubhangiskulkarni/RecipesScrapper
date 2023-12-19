@@ -12,34 +12,31 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
 import base.TestBase;
-
 import utils.ExcelReaderCode;
 
-public class DiabetesRecipesToAdd extends TestBase {
-
+public class DiabetesAfterElimnatngAllergies extends TestBase {
+	//private static WebDriver driver;
 	List<String> Diabetic_EliminateItem = new ArrayList<String>();
-	List<String> Diabetic_addItem = new ArrayList<String>();
+	List<String> Diabetic_AllergiesItem = new ArrayList<String>();
 	String ingre_List = "";
 	String food_Category;
 	String rec_Category;
 	String morbid_Condition;
 
-
-	public DiabetesRecipesToAdd(WebDriver driver) {
+	public DiabetesAfterElimnatngAllergies(WebDriver driver) {
 		PageFactory.initElements(driver,this);
 	}
 
 	public void readExcel() {
 		ExcelReaderCode reader = new ExcelReaderCode(
 				"C:/Users/OVI/git/RecipesScrapper/src/test/resources/ExcelFiles/IngredientsAndComorbidities-ScrapperHackathon.xlsx");
-		Boolean sheetCheck = reader.isSheetExist("Diabetes-Hypothyroidism-Hyperte");
-		System.out.println("The sheet existance status is : " + sheetCheck);
+		// Boolean sheetCheck = reader.isSheetExist("Diabetes-Hypothyroidism-Hyperte");
+		// System.out.println("The sheet existance status is : " + sheetCheck);
 
 		for (int i = 3; i <= 38; i++) {
 			String testData = reader.getCellData("Diabetes-Hypothyroidism-Hyperte", 0, i);
@@ -48,8 +45,8 @@ public class DiabetesRecipesToAdd extends TestBase {
 		}
 		
 		for(int i=3;i<20;i++) {
-			String testData=reader.getCellData("Diabetes-Hypothyroidism-Hyperte", 1, i);
-			Diabetic_addItem.add(testData.toLowerCase());
+			String testData=reader.getCellData("Allergies", 0, i);
+			Diabetic_AllergiesItem.add(testData.toLowerCase());
 			//System.out.println("Diabetic_addItem:  "+testData);
 		}
 	}
@@ -71,7 +68,7 @@ public class DiabetesRecipesToAdd extends TestBase {
 		recipesdetailedList.add(headers);
 
 	
-		for (int p = 1; p <= 11; p++) {
+		for (int p = 1; p <= 1; p++) {
 			String pageNo = Integer.toString(p);
 			WebElement pagination = driver.findElement(By.xpath("//div[@id='pagination']//a[" + pageNo + "]"));
 			JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -84,7 +81,6 @@ public class DiabetesRecipesToAdd extends TestBase {
 						(p==9&&i==23)||(p==9&&i==24)||(p==10&&i==22)||(p==12&&i==6))) {
 					continue;
 				}
-					
 				List<String> recipesDiabetes = new ArrayList<>();
 				String indexNo = Integer.toString(i);
 				WebElement recipeName = driver.findElement(By.xpath("//article[" + indexNo + "]//div[3]//span[1]//a"));
@@ -208,7 +204,7 @@ public class DiabetesRecipesToAdd extends TestBase {
 				driver.navigate().back();
 				Thread.sleep(3000);
 				Boolean validRecipe = isValidRecipe(Diabetic_EliminateItem, ingre_List);
-				Boolean isToAddPresent= recipeToAdd(Diabetic_addItem, ingre_List);
+				Boolean isToAddPresent= recipeToAdd(Diabetic_AllergiesItem, ingre_List);
 				if (validRecipe) {
 					if(isToAddPresent) {
 					recipesdetailedList.add(recipesDiabetes);
@@ -230,7 +226,7 @@ public class DiabetesRecipesToAdd extends TestBase {
 				cell.setCellValue(list);
 			}
 		}
-		String filePath = ".\\target\\Filtered_Diabetic_Recipes_Having_AddIngredients.xlsx";
+		String filePath = ".\\target\\Filtered_Diabetic_Recipes_excludingAllergies.xlsx";
 		FileOutputStream outstream = new FileOutputStream(filePath);
 		workbook.write(outstream);
 		System.out.println("Excel created");
@@ -253,28 +249,24 @@ public class DiabetesRecipesToAdd extends TestBase {
 	}
 	
 	
-	public boolean recipeToAdd(List<String> Diabetic_addItem, String ingr_List) {
+	public boolean recipeToAdd(List<String> Diabetic_AllergiesItem, String ingr_List) {
 		// System.out.println(ingr_List);
 		String[] ingredients = ingr_List.split(",");
 		for (String ingr : ingredients) {
-			for(String allergies:Diabetic_addItem) {
 			ingr = ingr.trim();
-			if (ingr.length() > 0 && ingr.contains(allergies)) {
+			if (ingr.length() > 0 && Diabetic_AllergiesItem.contains(ingr)) {
 				System.out.println(ingr);
-				System.out.println("To add found");
-				return true;}
+				System.out.println("Allergy item found");
+				return false;
+
 			}
 		}
-		System.out.println("To add item not found");
-		return false;
+		System.out.println("No Allergy item found");
+		return true;
+
 
 	}//end of toAddMethod
 }
-
-
-
-
-
 
 
 

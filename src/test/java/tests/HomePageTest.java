@@ -15,6 +15,7 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import pages.HomePage;
+import pages.DiabetesAfterElimnatngAllergies;
 import pages.DiabetesRecipesToAdd;
 import pages.DiabeticRecipes;
 
@@ -78,6 +79,13 @@ public class HomePageTest extends TestBase {
     	diabeticRepToAddObj.clickRecipesMenu();
     	diabeticRepToAddObj.getDiabeticRecipes();
     }
-
+    
+    @Test
+    public void getDiabetesRecipesAfterAllergyCheck() throws InterruptedException, IOException  {
+    	DiabetesAfterElimnatngAllergies diabeticRepAllergyChk=new DiabetesAfterElimnatngAllergies(TestBase.getDriver());
+    	diabeticRepAllergyChk.readExcel();
+    	diabeticRepAllergyChk.clickRecipesMenu();
+    	diabeticRepAllergyChk.getDiabeticRecipes();
+    }
 
 }
