@@ -1,21 +1,31 @@
 package tests;
 
 import org.testng.annotations.Test;
+
+import base.TestBase;
+
 import org.testng.annotations.BeforeClass;
 import org.testng.AssertJUnit;
-import base.TestBase;
+
+
+import java.io.IOException;
+
 import org.openqa.selenium.WebDriver;
-import utils.LoggerLoad;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+
 import pages.HomePage;
+import pages.PcosRecipesAfterEliminatngAllergies;
+import pages.PCOSRecAfterElimination;
+import utils.LoggerLoad;
+
 
 public class HomePageTest extends TestBase {
 
 
     HomePage homePage;
-    private WebDriver webDriver;
+   private WebDriver webDriver;
 
     public HomePageTest() {
         super();
@@ -39,7 +49,27 @@ public class HomePageTest extends TestBase {
 
     }
 
+    @Test (priority = 2)
+	
+	public void PCOSAfterEliminationReceipes() throws InterruptedException, IOException {
+    	PCOSRecAfterElimination pcosrecafterelimination = new PCOSRecAfterElimination(TestBase.getDriver());
+    	pcosrecafterelimination.readExcel();
+    	pcosrecafterelimination.clickRecipesMenu();
+    	pcosrecafterelimination.gettingPCOSRec();
+		
+	}
+
+    
 
 
+    @Test (priority = 3)
 
+    public void PCOSAllergyFiltered() throws InterruptedException, IOException {
+    	PcosRecipesAfterEliminatngAllergies pcosrecipesafterelimonatingallergies = new PcosRecipesAfterEliminatngAllergies(TestBase.getDriver());
+	
+    	pcosrecipesafterelimonatingallergies.clickRecipesMenu();
+    	pcosrecipesafterelimonatingallergies.readExcel();
+    	pcosrecipesafterelimonatingallergies.gettingRecipes();
+	
+}
 }

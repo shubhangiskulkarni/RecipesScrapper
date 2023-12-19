@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.PCOSReceipesPageTest">
+      <class name="tests.HomePageTest">
         <methods>
           <include name="setup"/>
-          <include name="PCOSReceipe"/>
+          <include name="PCOSreceipesToAdd"/>
         </methods>
-      </class> <!-- tests.PCOSReceipesPageTest -->
+      </class> <!-- tests.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

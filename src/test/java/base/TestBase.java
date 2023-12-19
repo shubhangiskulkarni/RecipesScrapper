@@ -81,8 +81,8 @@ public class TestBase {
 
     }
     
-   // public static WebDriver getDriver() {
-		//return driver;
-	//}
+    public static WebDriver getDriver() {
+		return driver;
+	}
 
 }

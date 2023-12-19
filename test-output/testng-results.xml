@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-18T09:29:49 EST" name="Default suite" finished-at="2023-12-18T09:38:59 EST" duration-ms="549884">
+  <suite started-at="2023-12-19T15:24:59 EST" name="Default suite" finished-at="2023-12-19T16:09:43 EST" duration-ms="2684556">
     <groups>
     </groups>
-    <test started-at="2023-12-18T09:29:49 EST" name="Default test" finished-at="2023-12-18T09:38:59 EST" duration-ms="549884">
-      <class name="tests.PCOSReceipesPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.PCOSReceipesPageTest@25084a1e]" started-at="2023-12-18T09:29:49 EST" name="setup" finished-at="2023-12-18T09:30:03 EST" duration-ms="13776" status="PASS">
+    <test started-at="2023-12-19T15:24:59 EST" name="Default test" finished-at="2023-12-19T16:09:43 EST" duration-ms="2684556">
+      <class name="tests.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.HomePageTest@7133da86]" started-at="2023-12-19T15:24:59 EST" name="setup" finished-at="2023-12-19T15:25:08 EST" duration-ms="9885" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="PCOSReceipe()[pri:2, instance:tests.PCOSReceipesPageTest@25084a1e]" started-at="2023-12-18T09:30:03 EST" name="PCOSReceipe" finished-at="2023-12-18T09:38:59 EST" duration-ms="536053" status="PASS">
+        <test-method signature="PCOSreceipesToAdd()[pri:3, instance:tests.HomePageTest@7133da86]" started-at="2023-12-19T15:25:08 EST" name="PCOSreceipesToAdd" finished-at="2023-12-19T16:09:43 EST" duration-ms="2674591" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- PCOSReceipe -->
-      </class> <!-- tests.PCOSReceipesPageTest -->
+        </test-method> <!-- PCOSreceipesToAdd -->
+      </class> <!-- tests.HomePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
