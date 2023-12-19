@@ -1,42 +1,57 @@
 package tests;
 
-import base.TestBase;
-import org.openqa.selenium.WebDriver;
-import utils.LoggerLoad;
-import org.testng.Assert;
+import java.io.IOException;
+
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+
+import base.TestBase;
 import pages.HomePage;
+import pages.HypothyroidismAddOnRec;
+import pages.HypothyroidismAfterElimnatngAllergies;
+import pages.HypothyroidismRecAfterElimntn;
 
 public class HomePageTest extends TestBase {
 
+	HomePage homePage;
+	//private WebDriver webDriver;
 
-    HomePage homePage;
-    private WebDriver webDriver;
+	public HomePageTest() {
+		super();
 
-    public HomePageTest() {
-        super();
+	}
 
-    }
+	@BeforeClass
+	public void setup() {
 
-    @BeforeClass
-    public void setup() {
-
-        initialization();
-        homePage = new HomePage();
-    }
-
-    @Test(priority = 1)
-    public void validateUserLandingHomePageTest() {
-        LoggerLoad.info("Executing test to validate Home Page title...");
-        String HomePageTitle = driver.getTitle();
-
-        LoggerLoad.info("Title of the home page is: " + HomePageTitle);
-        Assert.assertEquals(HomePageTitle, "Indian Recipes | Indian Vegetarian Recipes | Top Indian Veg Dishes");
-
-    }
+		initialization();
+		homePage = new HomePage();
+	}
 
 
+	@Test(priority=1)
+	public void hypothyroidismAftrElimnatnRecipes() throws InterruptedException, IOException {
+		HypothyroidismRecAfterElimntn scrappingHypoThyroidRec = new HypothyroidismRecAfterElimntn(TestBase.getDriver());
+		scrappingHypoThyroidRec.readExcel();
+		scrappingHypoThyroidRec.clickRecipesMenu();
+		scrappingHypoThyroidRec.gettingHypoThyroidRec();
+	}
 
+	@Test(priority=2)
+	public void hypothyroidAddOnRec() throws InterruptedException, IOException {
+		HypothyroidismAddOnRec scrappingHypoThyroidAddOnRec = new HypothyroidismAddOnRec(TestBase.getDriver());
+		scrappingHypoThyroidAddOnRec.readExcel();
+		scrappingHypoThyroidAddOnRec.clickRecipesMenu();
+		scrappingHypoThyroidAddOnRec.gettingRecipes();
+	}
+
+	@Test(priority=3)
+	public void hypothyroidAftrElimnateAllrgies() throws InterruptedException, IOException {
+		HypothyroidismAfterElimnatngAllergies HypothyroidNoAllergis = new HypothyroidismAfterElimnatngAllergies(
+				TestBase.getDriver());
+		HypothyroidNoAllergis.readExcel();
+		HypothyroidNoAllergis.clickRecipesMenu();
+		HypothyroidNoAllergis.gettingRecipes();
+	}
 
 }

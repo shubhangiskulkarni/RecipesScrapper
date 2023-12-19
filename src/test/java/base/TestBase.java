@@ -1,84 +1,86 @@
 package base;
 
-import utils.LoggerLoad;
-import utils.TestUtil;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.safari.SafariDriver;
+import utils.LoggerLoad;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
+import java.time.Duration;
 import java.util.Properties;
-import java.util.concurrent.TimeUnit;
 
 public class TestBase {
 
-    public static Properties prop;
-    protected static WebDriver driver;
+	public static Properties prop;
+	protected static WebDriver driver;
 
-    public TestBase() {
+	public TestBase() {
 
-        prop = new Properties();
+		prop = new Properties();
 
-        try {
+		try {
 
-            InputStream stream = TestBase.class.getClassLoader().getResourceAsStream("config.properties");
-            prop.load(stream);
+			InputStream stream = TestBase.class.getClassLoader().getResourceAsStream("config.properties");
+			prop.load(stream);
 
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 
-    }
+	}
 
-    @SuppressWarnings("deprecation")
-    public static void initialization() {
+	public static void initialization() {
 
-        LoggerLoad.info("Inside init");
-        LoggerLoad.info("The url is: " + prop.getProperty("url"));
+		LoggerLoad.info("Inside init");
+		LoggerLoad.info("The url is: " + prop.getProperty("url"));
 
-        String browserName = prop.getProperty("browser");
+		String browserName = prop.getProperty("browser");
 
-        // TODO REPLACE THIS WITH SWITCH STATEMENTS
-        if (browserName.equalsIgnoreCase("chrome")) {
+		// TODO REPLACE THIS WITH SWITCH STATEMENTS
+		if (browserName.equalsIgnoreCase("chrome")) {
 
-            WebDriverManager.chromedriver().setup();
-            driver = new ChromeDriver();
+			WebDriverManager.chromedriver().setup();
+			driver = new ChromeDriver();
 
-        } else if (browserName.equalsIgnoreCase("edge")) {
+		} else if (browserName.equalsIgnoreCase("edge")) {
 
-            WebDriverManager.edgedriver().setup();
-            driver = new EdgeDriver();
-        } else if (browserName.equalsIgnoreCase("safari")) {
+			WebDriverManager.edgedriver().setup();
+			driver = new EdgeDriver();
+		} else if (browserName.equalsIgnoreCase("safari")) {
 
-            WebDriverManager.safaridriver().setup();
-            driver = new SafariDriver();
+			WebDriverManager.safaridriver().setup();
+			driver = new SafariDriver();
 
-        }
+		}
 
-        driver.manage().window().maximize();
-        driver.manage().deleteAllCookies();
-        driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
-        driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
-        driver.get(prop.getProperty("url"));
+		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(60));
+		driver.get(prop.getProperty("url"));
 
-    }
+	}
 
-    public String getTitleOfCurrentPage() {
+	public String getTitleOfCurrentPage() {
 
-        return driver.getTitle();
+		return driver.getTitle();
 
-    }
+	}
 
-    public String getURLOfCurrentPage() {
+	public String getURLOfCurrentPage() {
 
-        return driver.getCurrentUrl();
+		return driver.getCurrentUrl();
 
-    }
+	}
+
+	public static WebDriver getDriver() {
+		return driver;
+	}
 
 }
