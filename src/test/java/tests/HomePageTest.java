@@ -6,10 +6,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import base.TestBase;
-import pages.HomePage;
-import pages.HypothyroidismAddOnRec;
-import pages.HypothyroidismAfterElimnatngAllergies;
-import pages.HypothyroidismRecAfterElimntn;
+import pages.*;
 
 public class HomePageTest extends TestBase {
 
@@ -53,5 +50,30 @@ public class HomePageTest extends TestBase {
 		HypothyroidNoAllergis.clickRecipesMenu();
 		HypothyroidNoAllergis.gettingRecipes();
 	}
+
+	@Test
+	public void diabeticRecipesTest() throws InterruptedException, IOException  {
+		DiabeticRecipes diabeticRepObj=new DiabeticRecipes(TestBase.getDriver());
+		diabeticRepObj.readExcel();
+		diabeticRepObj.clickRecipesMenu();
+		diabeticRepObj.getDiabeticRecipes();
+	}
+
+	@Test
+	public void getDiabetesRecipesToAdd() throws InterruptedException, IOException  {
+		DiabetesRecipesToAdd diabeticRepToAddObj=new DiabetesRecipesToAdd(TestBase.getDriver());
+		diabeticRepToAddObj.readExcel();
+		diabeticRepToAddObj.clickRecipesMenu();
+		diabeticRepToAddObj.getDiabeticRecipes();
+	}
+
+	@Test
+	public void getDiabetesRecipesAfterAllergyCheck() throws InterruptedException, IOException  {
+		DiabetesAfterElimnatngAllergies diabeticRepAllergyChk=new DiabetesAfterElimnatngAllergies(TestBase.getDriver());
+		diabeticRepAllergyChk.readExcel();
+		diabeticRepAllergyChk.clickRecipesMenu();
+		diabeticRepAllergyChk.getDiabeticRecipes();
+	}
+
 
 }

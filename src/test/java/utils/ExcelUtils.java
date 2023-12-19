@@ -70,7 +70,7 @@ public class ExcelUtils extends TestBase {
     public void WriteToExcelFile(String sheetName, String fileLoc, String[] data, int rowNumber) {
 
         // Create the folder if it doesn't exist
-        createFolderIfNotExists(fileLoc);
+//        createFolderIfNotExists(fileLoc);
 
         String filePath = fileLoc + sheetName + ".xlsx";
 
@@ -94,11 +94,7 @@ public class ExcelUtils extends TestBase {
             // If headers are found, proceed to write data
             if (headerRowIndex != -1) {
 
-                int lastRowNum = sheet.getLastRowNum();
-
                 Row dataRow = sheet.createRow(headerRowIndex + rowNumber); // Create a row for data
-
-                System.out.println("Writting to file: " + filePath + " Row num is " + rowNumber);
 
                 // Write data under specific columns based on header name
                 writeDataUnderHeaders(dataRow, headers, data); // Replace with your data
